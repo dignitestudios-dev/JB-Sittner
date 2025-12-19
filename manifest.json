@@ -1,0 +1,47 @@
+{
+    "$schema": "https://json.schemastore.org/web-manifest",
+    "name": "Shtosh",
+    "short_name": "Shtosh",
+    "background_color": "#030712",
+    "lang": "en",
+    "display": "standalone",
+    "theme_color": "#030712",
+    "orientation": "portrait",
+    "start_url": ".",
+    "shortcuts": [
+      {
+        "url": ".",
+        "name": "Созданные",
+        "description": "Опросы, созданные вами",
+        "icons": [
+          {
+            "src": "/logo.webp",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any"
+          }
+        ]
+      }
+    ],
+    "description": "Создавайте и проходите опросы быстро и удобно",
+    "icons": [
+      {
+        "src": "/logo.webp",
+        "sizes": "any",
+        "type": "image/svg+xml",
+        "purpose": "any"
+      },
+      {
+        "src": "/pwa-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/maskable-icon-512x512.png",
+        "sizes": "any",
+        "type": "image/png",
+        "purpose": "maskable"
+      }
+    ]
+  }

@@ -1,0 +1,51 @@
+{
+  "name": "truckingllc",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "generate-pwa-assets": "pwa-assets-generator --preset minimal public/logo.webp",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@codesyntax/ionic-react-photo-viewer": "^1.14.0",
+    "@emailjs/browser": "^4.4.1",
+    "date-fns": "^4.1.0",
+    "firebase": "^10.14.1",
+    "global": "^4.4.0",
+    "js-cookie": "^3.0.5",
+    "lodash": "^4.17.21",
+    "moment": "^2.30.1",
+    "moment-timezone": "^0.5.46",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.3.0",
+    "react-ios-time-picker": "^0.2.2",
+    "react-otp-input": "^3.1.1",
+    "react-router-dom": "^6.27.0",
+    "react-toastify": "^10.0.6",
+    "react-zoom-pan-pinch": "^3.6.1",
+    "smtp-client": "^0.4.0",
+    "swiper": "^11.1.14"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.11.1",
+    "@types/react": "^18.3.10",
+    "@types/react-dom": "^18.3.0",
+    "@vite-pwa/assets-generator": "^0.2.6",
+    "@vitejs/plugin-react": "^4.3.2",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.11.1",
+    "eslint-plugin-react": "^7.37.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.12",
+    "globals": "^15.9.0",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "vite": "^5.4.8",
+    "vite-plugin-pwa": "^0.20.5"
+  }
+}
