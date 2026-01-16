@@ -1,0 +1,1 @@
+function deploy command:firebase deploy --only functions:functionName
